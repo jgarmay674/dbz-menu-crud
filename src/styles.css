@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+/* Agregar espacio alrededor de la página */
+body {
+    margin: 0;
+    padding: 10px;
+    /* Ajusta este valor según lo que necesites */
+    font-family: Arial, sans-serif;
+    /* Ajusta la fuente si es necesario */
+}
+
+/* Si tienes un contenedor principal, por ejemplo, app-root o un div principal */
+.contenedor {
+    margin: 0 auto;
+    /* Centra el contenido */
+    padding: 20px;
+    /* Ajusta este valor para separar más el contenido */
+    max-width: 1200px;
+    /* Ajusta el ancho máximo según lo que necesites */
+}
